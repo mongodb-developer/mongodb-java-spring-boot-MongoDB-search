@@ -1,6 +1,6 @@
-# Java Spring Boot Template with MongoDB Atlas Search
+# Java Spring Boot Template with MongoDB Search
 
-This project is a template for a java Spring Boot application with MongoDB Atlas Search using Spring Data MongoDB.
+This project is a template for a java Spring Boot application with MongoDB Search using Spring Data MongoDB.
 
 For more information about this repository, consult the related [blog post](https://www.baeldung.com/mongodb-spring-data-atlas-search) and video.
 
@@ -8,7 +8,7 @@ For more information about this repository, consult the related [blog post](http
 
 You can watch this video to learn more about this project.
 
-[![Java Spring Boot Template with MongoDB Atlas Search video](http://img.youtube.com/vi/OERQ4p1Uhbs/0.jpg)](http://www.youtube.com/watch?v=OERQ4p1Uhbs "How to Build a REST API with Java, Spring Boot, Spring Data, and MongoDB Atlas Search")
+[![Java Spring Boot Template with MongoDB Search video](http://img.youtube.com/vi/OERQ4p1Uhbs/0.jpg)](http://www.youtube.com/watch?v=OERQ4p1Uhbs "How to Build a REST API with Java, Spring Boot, Spring Data, and MongoDB Atlas Search")
 
 # Prerequisites
 
@@ -17,7 +17,7 @@ You can watch this video to learn more about this project.
   cluster).
 - Load the [sample datasets](https://www.mongodb.com/docs/atlas/sample-data/#available-sample-datasets) as we are
   working with the `sample_mflix.movies` collection.
-- Create an Atlas Search index for the `sample_mflix.movies` collection named `dynamic` with the following
+- Create a MongoDB Search index for the `sample_mflix.movies` collection named `dynamic` with the following
   configuration:
 
 ```json
